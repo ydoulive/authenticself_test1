@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>나를 단단하게 만드는 1:1 워크샵</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f9fbfd;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d0e8f2;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      color: #2a7ca0;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    }
+    ul {
+      line-height: 1.6;
+      padding-left: 1.2rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #2a7ca0;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #226382;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>나를 단단하게 만드는 1:1 워크샵</h1>
+  <p>진짜 나를 위한 자기돌봄. 내면의 중심을 회복하세요.</p>
+</header>
+
+<div class="container">
+
+  <section class="card">
+    <h2>서비스 소개</h2>
+    <p>이 워크샵은 심리적 안정과 자기이해를 통해 삶의 방향을 명확히 하는 데 초점을 맞춘 1:1 프로그램입니다.  
+    매주 1회, 총 4주간 진행되며, 매일의 자기 성찰 일지를 기반으로 깊이 있는 코칭이 이뤄집니다.</p>
+  </section>
+
+  <section class="card">
+    <h2>워크샵 구성 (4주 4회)</h2>
+    <ul>
+      <li><strong>1주차:</strong> 내 감정의 패턴 들여다보기</li>
+      <li><strong>2주차:</strong> 나의 가치관과 무의식적 기준 탐색</li>
+      <li><strong>3주차:</strong> 이상적 삶과 현실의 간극 정리</li>
+      <li><strong>4주차:</strong> 실천 가능한 삶 설계 로드맵 만들기</li>
+    </ul>
+    <p><strong>매일 자기 성찰 일지를 저에게 제출해야 하며, 그 내용은 1:1 세션에서 깊이 있게 다룹니다.</strong></p>
+  </section>
+
+  <section class="card">
+    <h2>이 워크샵을 통해 얻게 되는 것</h2>
+    <ul>
+      <li>자기이해를 바탕으로 흔들리지 않는 기준 세우기</li>
+      <li>과도한 자기비판과 기준 완화</li>
+      <li>삶의 방향을 다시 설계할 수 있는 기반</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>코치 소개</h2>
+    <p>공학을 전공하고 대기업에서 일하던 중, 삶의 방향에 대해 깊이 고민하게 되었습니다.  
+    이후 내면 성찰과 진로 고민에 관심을 갖고 수년간 연구해왔으며, 현재는 사람들이 자기다운 삶을 설계할 수 있도록 돕고 있습니다.  
+    요가 지도자 자격과 다양한 심리 기반 자기탐색 툴을 접목하여 실용적인 변화를 돕습니다.</p>
+  </section>
+
+  <section class="card">
+    <h2>비용 및 신청 방법</h2>
+    <p><strong>4주 프로그램: 180,000원</strong></p>
+    <p>문의: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>결제 후 일정 조율을 위해 이메일로 안내드립니다.</p>
+    <button onclick="alert('결제 페이지로 연결됩니다. 실제 연결은 추후 구현하세요.')">결제하기</button>
+  </section>
+
+  <section class="card">
+    <h2>후기 작성</h2>
+    <form onsubmit="event.preventDefault(); alert('후기가 등록되었습니다.'); this.reset();">
+      <label for="name">이름 (또는 닉네임)</label>
+      <input type="text" id="name" required>
+      <label for="feedback">후기</label>
+      <textarea id="feedback" rows="4" required></textarea>
+      <button type="submit">후기 등록</button>
+    </form>
+  </section>
+
+</div>
+
+<footer>
+  &copy; 2025 자기다운 삶 | All rights reserved.
+</footer>
+
+</body>
+</html>
